@@ -21,7 +21,7 @@ main {
     margin: auto;
     padding: 1em;
     width: 40%;
-    height: 50vh;
+    height: 60vh;
     border-radius: 0px 0px 30px 30px;
     background-color: rgb(255,225,98);
 }
@@ -62,6 +62,7 @@ input {
     background-color:#d2ba00;
     border: none;
     cursor: pointer;
+    margin-top: 1em;
 }
 
 .buttonClass:hover {
@@ -69,7 +70,13 @@ input {
 }
 
 #monitor {
+    position: relative;
     margin-top: 2em;
+}
+
+p {
+    margin: 0.3em;
+    font-size: 1.1em;
 }
                 
 img {

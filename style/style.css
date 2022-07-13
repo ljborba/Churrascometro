@@ -21,14 +21,14 @@ main {
     margin: auto;
     padding: 1em;
     width: 40%;
-    height: 30vh;
+    height: 35vh;
     border-radius: 0px 0px 30px 30px;
     background-color: rgb(255,225,98);
 }
 
 h1 {
     font-family: 'Sancreek', cursive;
-    color: white;
+    color: black;
     margin-bottom: 0.5em;
     
 }
@@ -38,7 +38,7 @@ h2 {
     right: 25%;
     transform: rotate(-10deg);
     font-family: 'Goudy Bookletter 1911', serif;
-    max-width: 25%;
+    max-width: 23%;
 }
 
 input {
@@ -69,5 +69,5 @@ input {
   }
                 
 img {
-    width: 900px;
+    width: 790px;
 }

@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&family=Sancreek&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Goudy Bookletter 1911', serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 25%;
+    margin: auto;
+    padding: 1em;
+    border-radius: 0px 0px 5px 5px;
+    background-color: #424242;
+}
+
+h1 {
+    font-family: 'Sancreek', cursive;
+    color: #D3C3AA;
+    margin-bottom: 0.5em;
+    
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 0.3em;
+    margin-bottom: 0.5em;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 1em;
+    margin-top: 0.5em;
+}

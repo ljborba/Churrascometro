@@ -9,9 +9,7 @@
 
 main {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
+    align-items: flex-end;
 }
 
 .container {
@@ -34,11 +32,7 @@ h1 {
 }
 
 h2 {
-    position: relative;
-    right: 22%;
-    transform: rotate(-10deg);
     font-family: 'Goudy Bookletter 1911', serif;
-    max-width: 23%;
 }
 
 input {
@@ -80,5 +74,13 @@ p {
 }
                 
 img {
-    width: 790px;
+    width: 400px;
+}
+
+.item {
+    order: 1;
+}
+
+.item-1 {
+    order: 2;
 }

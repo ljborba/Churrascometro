@@ -7,9 +7,14 @@
     margin: 0;
 }
 
+body {
+    display: flex;
+}
+
 main {
     display: flex;
-    align-items: flex-end;
+    align-items: baseline;
+    flex-direction: row;
 }
 
 .container {
@@ -18,7 +23,7 @@ main {
     align-items: center;
     margin: auto;
     padding: 1em;
-    width: 40%;
+    width: 50%;
     height: 60vh;
     border-radius: 0px 0px 30px 30px;
     background-color: rgb(255,225,98);
@@ -33,6 +38,7 @@ h1 {
 
 h2 {
     font-family: 'Goudy Bookletter 1911', serif;
+    font-size: 1.5em;
 }
 
 input {
@@ -74,7 +80,7 @@ p {
 }
                 
 img {
-    width: 400px;
+    width: 600px;
 }
 
 .item {

@@ -20,7 +20,7 @@ main {
     margin: auto;
     padding: 1em;
     width: 50%;
-    height: 70vh;
+    height: 90vh;
     border-radius: 0px 0px 30px 30px;
     background-color: rgb(255,225,98);
 }
@@ -43,15 +43,22 @@ h3 {
     font-family: 'Goudy Bookletter 1911', serif;
 }
 
+.inputs {
+    display: flex;
+    flex-direction: column;
+    margin: 0.3rem;
+}
+
 input {
-    display: block;
-    width: 80%;
-    padding: 1em;
-    margin-bottom: 0.5em;
-    box-sizing: border-box;
+    padding: 1rem;
     border-radius: 10px;
     border: none;
+}
 
+label {
+    margin: 0.5rem;
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-size: 1.2em;
 }
 
 .buttonClass {

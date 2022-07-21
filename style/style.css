@@ -22,7 +22,9 @@ main {
     width: 50%;
     height: 90vh;
     border-radius: 0px 0px 30px 30px;
-    background-color: rgb(255,225,98);
+    background: #f46b45;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #ffe162, #ffbf40);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #ffe162, #ffbf40); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 h1 {
@@ -68,14 +70,16 @@ label {
     height:50px;
     color:white;
     border-radius: 15px;
-    background-color:#d2ba00;
+    background: #f46b45;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #ffe162, #ffbf40);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #ffe162, #ffbf40); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border: none;
     cursor: pointer;
     margin-top: 1em;
 }
 
 .buttonClass:hover {
-    background: #af9b00;
+    background: #ffdc3fcc;
 }
 
 #monitor {

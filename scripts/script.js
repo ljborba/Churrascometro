@@ -19,7 +19,7 @@ function calcular() {
 }
 
 function carnePessoa(duracao) {
-    if(duracao >= 6) {
+    if(duracao >= 3) {
         return 650;
     }
     else {
@@ -28,7 +28,7 @@ function carnePessoa(duracao) {
 }
 
 function cervejaPessoa(duracao) {
-    if(duracao >= 6) {
+    if(duracao >= 3) {
         return 2000;
     }
     else {
@@ -37,7 +37,7 @@ function cervejaPessoa(duracao) {
 }
 
 function bebidasPessoa(duracao) {
-    if(duracao >= 6) {
+    if(duracao >= 3) {
         return 2000;
     }
     else {

@@ -127,9 +127,39 @@ img {
 
     h2 {
         order: 1;
+        margin: auto;
     }
 
     img {
         width: 100%;
     }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container {
+        width: 80%;
+        margin-bottom: 2em;
+    }
+
+    h2 {
+        order: 1;
+        margin: auto;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1536px) {
+    .container {
+        width: 60%;
+        height: 70vh;
+    }
+
 }

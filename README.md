@@ -10,3 +10,7 @@ Cerveja adultos - 1.2L por pessoa, + de 3 horas 2L(adicional de 0.8L);
 
 Água/refrigerante adultos - 1L por pessoa, + de 3 horas 2L(adicional de 1L);
 Água/refrigerante crianças - 0.5L por pessoa, + de 3 horas 1.5L(adicional de 1L);
+
+Técnologias
+
+HTML, CSS e JavaScript

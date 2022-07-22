@@ -29,10 +29,10 @@ function carnePessoa(duracao) {
 
 function cervejaPessoa(duracao) {
     if(duracao >= 2) {
-        return 2600;
+        return 3000;
     }
     else {
-        return 3000;
+        return 2600;
     }
 }
 

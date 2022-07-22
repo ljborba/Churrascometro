@@ -14,7 +14,7 @@ function calcular() {
 
     resultado.innerHTML = `<h3>A quantidade ideal é</h3>`
     resultado.innerHTML += `<div class="bloco-resultado"><img src="../assets/beef.png"><p>${qntCarne / 1000} Kg de carne.</p></div>`
-    resultado.innerHTML += `<div class="bloco-resultado"><img src="../assets/cans.png"><p>${Math.ceil(qntCerveja/350)} Latinhas de cereveja.</p></div>`
+    resultado.innerHTML += `<div class="bloco-resultado"><img src="../assets/cans.png"><p>${Math.ceil(qntCerveja/350)} Latinhas de cerveja.</p></div>`
     resultado.innerHTML += `<div class="bloco-resultado"><img src="../assets/bottle.png"><p>${Math.ceil(qntBebidas/2000)} Garrafas de refrigerante ou água.</p></div>`
 }
 

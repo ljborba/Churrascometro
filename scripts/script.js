@@ -19,25 +19,25 @@ function calcular() {
 }
 
 function carnePessoa(duracao) {
-    if(duracao >= 3) {
-        return 650;
+    if(duracao >= 2) {
+        return 300;
     }
     else {
-        return 400;
+        return 200;
     }
 }
 
 function cervejaPessoa(duracao) {
-    if(duracao >= 3) {
-        return 2000;
+    if(duracao >= 2) {
+        return 2600;
     }
     else {
-        return 1200;
+        return 3000;
     }
 }
 
 function bebidasPessoa(duracao) {
-    if(duracao >= 3) {
+    if(duracao >= 2) {
         return 2000;
     }
     else {

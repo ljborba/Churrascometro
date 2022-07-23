@@ -1,6 +1,6 @@
-<h1> Churrascômetro </h1>
+<h1>Churrascômetro</h1>
 
-<h2 <Regra de negócio </h2>
+<h2>Regra de negócio</h2>
 
 Carne adultos - 200g por pessoa, + de 2 horas 300g(adicional de 100g);
 Carne crianças - 60g por pessoa, + de 2 horas 120g (adicional de 60g);
